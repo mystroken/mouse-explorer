@@ -1,0 +1,31 @@
+{
+  "name": "@mystroken/mouse-explorer",
+  "version": "0.0.1",
+  "description": "Browse along a section clipped into a viewport using a mouse.",
+  "main": "index.js",
+  "author": "Mystro Ken <mystroken@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "homepage": "https://github.com/mystroken/mouse-explorer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystroken/mouse-explorer.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "javascript",
+    "mouse",
+    "mousemove",
+    "sliding",
+    "library",
+    "interaction",
+    "creativecoding"
+  ],
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
