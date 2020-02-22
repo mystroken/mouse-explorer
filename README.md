@@ -21,7 +21,7 @@ Look at the sources files for more information.
 ```javascript
 import createMouseExplorer from '@mystroken/mouse-explorer';
 
-const viewport = document;
+const viewport = document.querySelector('#viewport');
 const section = document.querySelector('#container');
 const explorer = createMouseExplorer({ viewport, section });
 
