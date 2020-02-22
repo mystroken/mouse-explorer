@@ -5,6 +5,7 @@
 > :mouse2: Browse along a section clipped into a viewport using a mouse.
 
 <br>
+<br>
 
 ## Installation
 
