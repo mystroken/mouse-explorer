@@ -30,4 +30,78 @@ explorer.on(({ x, y }) => {
 });
 ```
 
+## Parameters
 
+```javascript
+const explorer = createMouseExplorer({
+    ease: 0.21,
+    viewport: document.querySelector('#viewport'),
+    section: document.querySelector('#container'),
+    center: true,
+});
+```
+
+#### viewport
+
+Determines the viewport that clips the section.
+
+| Default  | Type          | Required |
+| -------- | ------------- | -------- |
+| `Window` | `HTMLElement` | **No**   |
+
+#### section
+
+Determines the section to be explored.
+
+| Default | Type          | Required |
+| ------- | ------------- | -------- |
+| `null`  | `HTMLElement` | **Yes**  |
+
+#### ease
+
+Set the ease of movement (section moving inside the viewport).
+
+| Default | Type     | Required |
+| ------- | -------- | -------- |
+| `0.21`  | `Number` | **No**   |
+
+#### center
+
+Tells the explorer to center or not the section on start.
+
+| Default | Type      | Required |
+| ------- | --------- | -------- |
+| `false` | `Boolean` | **No**   |
+
+<br>
+
+## Methods
+
+#### on(callback)
+
+Add a callback to be called on each mouse move on the section.
+
+#### off(callback)
+
+Remove a callback.
+
+#### positionAt(x, y)
+
+Get position (in pixel) for a given [-1,1] coordinates.
+
+| Argument | Types    | Info                                  | Required |
+| -------- | -------- | ------------------------------------- | -------- |
+| x        | `Number` | The given x-axis position (in pixel). | Yes      |
+| y        | `Number` | The given y-axis position (in pixel). | Yes      |
+
+```javascript
+const explorer = createMouseExplorer({ viewport, section });
+
+// Position at center
+explorer.positionAt(0, 0);
+// Returns corresponding 
+// amount of pixels to slide in order 
+// to place the section in 
+// the middle of the viewport.
+// { x: 284, y: 97 }
+```

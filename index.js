@@ -9,7 +9,7 @@
  * @type Object
  * @property {HTMLElement} section The section to be explored.
  * @property {HTMLElement|Window} viewport The viewport that clips the section.
- * @property {Number} ease The ease.
+ * @property {Number} ease The ease of movement (section moving inside the viewport).
  * @property {Boolean} center Center or not the section on start.
  */
 var defaultParameters = {
