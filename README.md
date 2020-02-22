@@ -12,8 +12,6 @@
 npm install @mystroken/mouse-explorer
 ```
 
-<br>
-
 ## Usage
 
 Look at the sources files for more information.
