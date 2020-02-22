@@ -30,6 +30,9 @@ explorer.on(({ x, y }) => {
 });
 ```
 
+<br>
+<br>
+
 ## Parameters
 
 ```javascript
@@ -41,6 +44,8 @@ const explorer = createMouseExplorer({
 });
 ```
 
+<br>
+
 #### viewport
 
 Determines the viewport that clips the section.
@@ -48,6 +53,8 @@ Determines the viewport that clips the section.
 | Default  | Type          | Required |
 | -------- | ------------- | -------- |
 | `Window` | `HTMLElement` | **No**   |
+
+<br>
 
 #### section
 
@@ -57,6 +64,8 @@ Determines the section to be explored.
 | ------- | ------------- | -------- |
 | `null`  | `HTMLElement` | **Yes**  |
 
+<br>
+
 #### ease
 
 Set the ease of movement (section moving inside the viewport).
@@ -64,6 +73,8 @@ Set the ease of movement (section moving inside the viewport).
 | Default | Type     | Required |
 | ------- | -------- | -------- |
 | `0.21`  | `Number` | **No**   |
+
+<br>
 
 #### center
 
@@ -74,19 +85,21 @@ Tells the explorer to center or not the section on start.
 | `false` | `Boolean` | **No**   |
 
 <br>
+<br>
 
 ## Methods
 
 #### on(callback)
-
 Add a callback to be called on each mouse move on the section.
 
-#### off(callback)
+<br>
 
+#### off(callback)
 Remove a callback.
 
-#### positionAt(x, y)
+<br>
 
+#### positionAt(x, y)
 Get position (in pixel) for a given [-1,1] coordinates.
 
 | Argument | Types    | Info                                  | Required |
