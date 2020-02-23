@@ -1,9 +1,12 @@
-# mouse-explorer
+# :mouse2: mouse-explorer
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mystroken/mouse-explorer/issues)
 
-> :mouse2: Browse along a section clipped into a viewport using a mouse.
-> Vanilla Js - No dependencies - ~987B minified and gzipped
+<blockquote>
+Browse along a section clipped into a viewport using a mouse.
+<br>
+Vanilla Js - No dependencies - ~987B minified and gzipped
+</blockquote>
 
 <br>
 <br>
